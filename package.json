@@ -1,0 +1,24 @@
+{
+  "name": "ghnotifications",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "offline": "sls offline start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^18.0.3",
+    "discord.js": "^12.2.0",
+    "got": "^11.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-google": "^0.14.0",
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-offline": "^6.5.0"
+  }
+}
